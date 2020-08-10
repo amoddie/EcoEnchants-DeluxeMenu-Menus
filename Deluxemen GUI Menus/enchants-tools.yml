@@ -1,0 +1,297 @@
+menu_title: '&8Tool Enchants'
+open_command:
+- enchants:tools
+- customenchants:tools
+- ce:tools
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.open.all
+      deny_commands:
+      - '[message] &8[&7&l!&8] &7You do not have access to this feature.'
+items:
+  1:
+    material: black_stained_glass_pane
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 18
+    - 27
+    - 36
+    - 46
+    - 47
+    - 48
+    - 45
+    - 50
+    - 51
+    - 52
+    - 53
+    - 44
+    - 35
+    - 26
+    - 17
+    display_name: '&f'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+  2:
+    material: book
+    slots:
+    - 10
+    display_name: '&dDrill &f[&dTools&f]'
+    lore:
+    - '&fBreak the block behind the current block being mined'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  3:
+    material: book
+    slots:
+    - 11
+    display_name: '&dFarmhand &f[&dHoes&f]'
+    lore:
+    - '&fTill multiple blocks at once'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  4:
+    material: book
+    slots:
+    - 12
+    display_name: '&dInfernal Touch &f[&dTools&f]'
+    lore:
+    - '&fAutosmelt Everything'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  5:
+    material: book
+    slots:
+    - 13
+    display_name: '&dTelekinesis &f[&dTools&f]'
+    lore:
+    - '&fDrops go straight into your inventory'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  7:
+    material: book
+    slots:
+    - 14
+    display_name: '&dWisdom &f[&dTools&f]'
+    lore:
+    - '&fGain more experience'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  8:
+    material: book
+    slots:
+    - 15
+    display_name: '&dSoulbound &f[&dALL&f] &2(SPECIAL)'
+    lore:
+    - '&fKeep item on death'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  9:
+    material: book
+    slots:
+    - 16
+    display_name: '&dEnergizing &f[&dTools&f] &2(SPECIAL)'
+    lore:
+    - '&fShort burst of haste when breaking block'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  10:
+    material: book
+    slots:
+    - 19
+    display_name: '&dIndestructibility &f[&dAll&f] &2(SPECIAL)'
+    lore:
+    - '&fFunctions like high-level unbreaking'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  11:
+    material: book
+    slots:
+    - 20
+    display_name: '&dIntellect &f[&dTools&f] &2(SPECIAL)'
+    lore:
+    - '&fFunctions like high-level wisdom'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  12:
+    material: book
+    slots:
+    - 21
+    display_name: '&dReplenish &f[&dHoes&f]'
+    lore:
+    - '&fReplant crops when harvested'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  13:
+    material: book
+    slots:
+    - 22
+    display_name: '&dStone Switcher &f[&dPickaxes&f]'
+    lore:
+    - '&fStone can drop as andesite, diorite, granite, or stone'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  14:
+    material: book
+    slots:
+    - 23
+    display_name: '&dLumberjack &f[&dAxes&f]'
+    lore:
+    - '&fTreefeller'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  15:
+    material: book
+    slots:
+    - 24
+    display_name: '&dRepairing &f[&dAll&f] &2(SPECIAL)'
+    lore:
+    - '&fAutomatic Mending'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  16:
+    material: book
+    slots:
+    - 25
+    display_name: '&dBlast Mining &f[&dPickaxes&f]'
+    lore:
+    - '&fMine blocks in a 3x3 area'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  17:
+    material: gray_dye
+    slots:
+    - 49
+    display_name: '&f[&d&lBack&f]'
+    hide_attributes: true
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] enchants'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] enchants'

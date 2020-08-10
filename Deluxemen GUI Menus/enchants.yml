@@ -1,0 +1,143 @@
+menu_title: '&8Custom Enchants'
+open_command:
+- enchants
+- customenchants
+- ce
+size: 44
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.open.all
+      deny_commands:
+      - '[message] &8[&7&l!&8] &7You do not have access to this feature.'
+items:
+  1:
+    material: black_stained_glass_pane
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 18
+    - 27
+    - 36
+    - 37
+    - 38
+    - 39
+    - 41
+    - 42
+    - 43
+    - 44
+    - 35
+    - 26
+    - 17
+    display_name: '&f'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+  2:
+    material: netherite_chestplate
+    slots:
+    - 20
+    display_name: '&d&lArmor Enchantments'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[openguimenu] enchants-armor'
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[openguimenu] enchants-armor'
+    - '[sound] UI_BUTTON_CLICK'
+  3:
+    material: netherite_pickaxe
+    slots:
+    - 21
+    display_name: '&d&lTool Enchantments'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[openguimenu] enchants-tools'
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[openguimenu] enchants-tools'
+    - '[sound] UI_BUTTON_CLICK'
+  4:
+    material: netherite_sword
+    slots:
+    - 22
+    display_name: '&d&lWeapon Enchantments'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[openguimenu] enchants-weapons'
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[openguimenu] enchants-weapons'
+    - '[sound] UI_BUTTON_CLICK'
+  5:
+    material: totem_of_undying
+    slots:
+    - 23
+    display_name: '&e&lArtifacts'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[openguimenu] enchants-artifacts'
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[openguimenu] enchants-artifacts'
+    - '[sound] UI_BUTTON_CLICK'
+  6:
+    material: magma_cream
+    slots:
+    - 24
+    display_name: '&c&lCurses'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[openguimenu] enchants-curses'
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[openguimenu] enchants-curses'
+    - '[sound] UI_BUTTON_CLICK'
+  7:
+    material: gray_dye
+    slots:
+    - 40
+    display_name: '&f[&d&lBack&f]'
+    hide_attributes: true
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] main-overview'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] main-overview'

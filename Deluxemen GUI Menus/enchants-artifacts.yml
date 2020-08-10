@@ -1,0 +1,300 @@
+menu_title: '&8Artifacts'
+open_command:
+- enchants:artifacts
+- customenchants:artifacts
+- ce:artifacts
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.open.all
+      deny_commands:
+      - '[message] &8[&7&l!&8] &7You do not have access to this feature.'
+items:
+  1:
+    material: black_stained_glass_pane
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 18
+    - 27
+    - 36
+    - 45
+    - 46
+    - 47
+    - 48
+    - 49
+    - 50
+    - 51
+    - 52
+    - 53
+    - 44
+    - 35
+    - 26
+    - 17
+    display_name: '&f'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+  2:
+    material: totem_of_undying
+    slots:
+    - 10
+    display_name: '&6Flaming Artifact &f[&dBows&f/&dCrossbows&f/&dTridents&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  3:
+    material: totem_of_undying
+    slots:
+    - 11
+    display_name: '&6Smoke Artifact &f[&dBows&f/&dCrossbows&f/&dTridents&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  4:
+    material: totem_of_undying
+    slots:
+    - 12
+    display_name: '&6Sparkle Artifact &f[&dPickaxes&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  5:
+    material: totem_of_undying
+    slots:
+    - 13
+    display_name: '&6Dragon Spiral Artifact &f[&dSwords&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  6:
+    material: totem_of_undying
+    slots:
+    - 14
+    display_name: '&6Emerald Artifact &f[&dBows&f/&dCrossbows&f/&dTridents&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  7:
+    material: totem_of_undying
+    slots:
+    - 15
+    display_name: '&6Enchant Spiral Artifact &f[&dSwords&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  9:
+    material: totem_of_undying
+    slots:
+    - 16
+    display_name: '&6Heart Artifact &f[&dBows&f/&dCrossbows&f/&dTridents&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  10:
+    material: totem_of_undying
+    slots:
+    - 19
+    display_name: '&6Nether Artifact &f[&dPickaxes&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  11:
+    material: totem_of_undying
+    slots:
+    - 20
+    display_name: '&6End Artifact &f[&dPickaxes&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  12:
+    material: totem_of_undying
+    slots:
+    - 21
+    display_name: '&6Music Artifact &f[&dBows&f/&dCrossbows&f/&dTridents&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  13:
+    material: totem_of_undying
+    slots:
+    - 22
+    display_name: '&6End Trail Artifact &f[&dElytra&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  14:
+    material: totem_of_undying
+    slots:
+    - 23
+    display_name: '&6Green Trail Artifact &f[&dElytra&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  15:
+    material: totem_of_undying
+    slots:
+    - 24
+    display_name: '&6Lava Trail Artifact &f[&dElytra&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  16:
+    material: totem_of_undying
+    slots:
+    - 25
+    display_name: '&6Fire Trail Artifact &f[&dElytra&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  17:
+    material: totem_of_undying
+    slots:
+    - 28
+    display_name: '&6Fire Spiral Artifact &f[&dSwords&f]'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  18:
+    material: totem_of_undying
+    slots:
+    - 29
+    display_name: "&6Totem Artifact &f[&dPickaxes&f]"
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  23:
+    material: gray_dye
+    slots:
+    - 49
+    display_name: '&f[&d&lBack&f]'
+    hide_attributes: true
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] enchants'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] enchants'

@@ -1,0 +1,550 @@
+menu_title: '&8Weapon Enchants'
+open_command:
+- enchants:weapons
+- customenchants:weapons
+- ce:weapons
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.open.all
+      deny_commands:
+      - '[message] &8[&7&l!&8] &7You do not have access to this feature.'
+items:
+  1:
+    material: black_stained_glass_pane
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 18
+    - 27
+    - 36
+    - 46
+    - 47
+    - 48
+    - 45
+    - 50
+    - 51
+    - 52
+    - 44
+    - 35
+    - 26
+    - 17
+    display_name: '&f'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+  2:
+    material: book
+    slots:
+    - 10
+    display_name: '&dBeheading &f[&cSwords&f/&cAxes&f]&f'
+    lore: 
+    - '&fChance to receive head on kill'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[openguimenu]'
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[openguimenu]'
+    - '[sound] UI_BUTTON_CLICK'
+  3:
+    material: book
+    slots:
+    - 11
+    display_name: '&dCriticals &f[&cSwords&f/&cAxes&f]'
+    lore: 
+    - '&fDo more critical damage'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  4:
+    material: book
+    slots:
+    - 12
+    display_name: '&dDexterous &f[&cSwords&f/&cAxes&f]'
+    lore: 
+    - '&fFaster attack speed'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[openguimenu]'
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[openguimenu]'
+    - '[sound] UI_BUTTON_CLICK'
+  5:
+    material: book
+    slots:
+    - 13
+    display_name: '&dFinishing &f[&cSwords&f]'
+    lore: 
+    - '&fInstantly kill mob or player at low health'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  6:
+    material: book
+    slots:
+    - 14
+    display_name: '&dFirst Strike &f[&cSwords&f]'
+    lore: 
+    - '&fDo more damage when enemy is at full health'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  7:
+    material: book
+    slots:
+    - 15
+    display_name: '&dIllusion Aspect &f[&cSwords&f]'
+    lore: 
+    - '&fGives enemies nausea and blindness'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  8:
+    material: book
+    slots:
+    - 16
+    display_name: '&dInstability &f[&cBows&f/&cCrossbows&f] &2(SPECIAL)'
+    lore: 
+    - '&fArrows explode on impact'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  10:
+    material: book
+    slots:
+    - 19
+    display_name: '&dLeeching &f[&cSwords&f/&cAxes&f]'
+    lore: 
+    - '&fGain health proportional to damage dealt'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  11:
+    material: book
+    slots:
+    - 20
+    display_name: '&dMarksman &f[&cBows&f/&cCrossbows&f]'
+    lore: 
+    - '&fArrows will not drop when shot'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  12:
+    material: book
+    slots:
+    - 21
+    display_name: '&dNecrotic &f[&cSwords&f]'
+    lore: 
+    - '&fHigher chance of getting wither skulls'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  13:
+    material: book
+    slots:
+    - 22
+    display_name: '&dStray Aspect &f[&cSwords&f]'
+    lore: 
+    - '&fGives your enemy slowness and mining fatigue'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  14:
+    material: book
+    slots:
+    - 23
+    display_name: '&dSuccession &f[&cBows&f]'
+    lore: 
+    - '&fShoot several arrows quickly after each other'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  15:
+    material: book
+    slots:
+    - 24
+    display_name: '&dSupercritical &f[&cSwords&f]'
+    lore: 
+    - '&fSmall chance of doing more damage'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  16:
+    material: book
+    slots:
+    - 25
+    display_name: '&dTelekinesis &f[&cTools&f/&cWeapons&f/&cBows&f/&cCrossbows&f]'
+    lore: 
+    - '&fDrops go straight into your inventory'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  17:
+    material: book
+    slots:
+    - 28
+    display_name: '&dThor &f[&cSwords&f]'
+    lore: 
+    - '&fChance of striking your enemy with lightning'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  18:
+    material: book
+    slots:
+    - 29
+    display_name: '&dVampire Aspect &f[&cSwords&f]'
+    lore: 
+    - '&fWithers away at your opponent'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  19:
+    material: book
+    slots:
+    - 30
+    display_name: '&dSplash &f[&cTridents&f]'
+    lore: 
+    - '&fDamage enemies near where trident lands'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  20:
+    material: book
+    slots:
+    - 31
+    display_name: '&dLaceration &f[&cSwords&f]'
+    lore: 
+    - '&fDo more damage to enemy armor'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  21:
+    material: book
+    slots:
+    - 32
+    display_name: '&dGoliath &f[&cSwords&f]'
+    lore: 
+    - '&fDamage enemies more when they have more health than you'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  22:
+    material: book
+    slots:
+    - 33
+    display_name: '&dCerebral &f[&cBows&f/&cCrossbows&f]'
+    lore: 
+    - '&fHeadshots do more damage'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  23:
+    material: book
+    slots:
+    - 34
+    display_name: '&dOptics &f[&cBows&f/&cCrossbows&f]'
+    lore: 
+    - '&fDo more damage the further you are from your target'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  24:
+    material: book
+    slots:
+    - 37
+    display_name: '&dDefusion &f[&cSwords&f]'
+    lore: 
+    - '&fDo more damage to creepers'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  25:
+    material: book
+    slots:
+    - 38
+    display_name: '&dBoss Hunter &f[&cBows&f/&cCrossbows&f]'
+    lore: 
+    - '&fDo more damage to bosses'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  26:
+    material: book
+    slots:
+    - 39
+    display_name: '&dRapid &f[&cBows&f]'
+    lore: 
+    - '&fShoot arrows at full speed without pulling your bow all the way back'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  27:
+    material: book
+    slots:
+    - 40
+    display_name: '&dTripleshot &f[&cBows&f]'
+    lore: 
+    - '&fShoot three arrows at a time'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  28:
+    material: book
+    slots:
+    - 41
+    display_name: '&dRazor &f[&cSwords&f] &2(SPECIAL)'
+    lore: 
+    - '&fA high-level variant of "Sharpness"'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  29:
+    material: book
+    slots:
+    - 42
+    display_name: '&dSoulbound &2(SPECIAL)'
+    lore: 
+    - '&fItem stays with you after death'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  30:
+    material: book
+    slots:
+    - 43
+    display_name: '&dFrenzy &f[&cSwords&f] &2(SPECIAL)'
+    lore: 
+    - '&fGain strength temporarily after kill'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  31:
+    material: gray_dye
+    slots:
+    - 49
+    display_name: '&f[&d&lBack&f]'
+    hide_attributes: true
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] enchants'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] enchants'
+  32:
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzJmOTEwYzQ3ZGEwNDJlNGFhMjhhZjZjYzgxY2Y0OGFjNmNhZjM3ZGFiMzVmODhkYjk5M2FjY2I5ZGZlNTE2In19fQ==
+    slots:
+    - 53
+    display_name: '&f&l[&dNext Page&f&l]'
+    hide_attributes: true
+    left_click_commands:
+    - '[openguimenu] enchants-weapons2'
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[openguimenu] enchants-weapons2'
+    - '[sound] UI_BUTTON_CLICK'

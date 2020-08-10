@@ -1,0 +1,416 @@
+menu_title: '&8Armor Enchants'
+open_command:
+- enchants:armor
+- customenchants:armor
+- ce:armor
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.open.all
+      deny_commands:
+      - '[message] &8[&7&l!&8] &7You do not have access to this feature.'
+items:
+  1:
+    material: black_stained_glass_pane
+    slots:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 18
+    - 27
+    - 36
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 51
+    - 52
+    - 53
+    - 44
+    - 35
+    - 26
+    - 17
+    display_name: '&f'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+  2:
+    material: book
+    slots:
+    - 10
+    display_name: '&dEvasion &f[&dArmor&f]'
+    lore:
+    - '&fChance to ignore incoming damage'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  3:
+    material: book
+    slots:
+    - 11
+    display_name: '&dIncandescence &f[&dArmor&f]'
+    lore:
+    - '&fLights attacker on fire when struck'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  4:
+    material: book
+    slots:
+    - 12
+    display_name: '&dMagma Walker &f[&dBoots&f]'
+    lore:
+    - '&fGives you the ability to walk on lava by turning it into obsidian'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  5:
+    material: book
+    slots:
+    - 13
+    display_name: '&dSlicing &f[&dElytra&f]'
+    lore:
+    - '&fDamages mobs/players you fly through'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  6:
+    material: book
+    slots:
+    - 14
+    display_name: '&dSpring &f[&dBoots&f]'
+    lore:
+    - '&fJump higher and further without taking fall damage'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  7:
+    material: book
+    slots:
+    - 15
+    display_name: '&dStreamlining &f[&dBoots&f] &2(SPECIAL)'
+    lore:
+    - '&fFaster walk speed'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  8:
+    material: book
+    slots:
+    - 16
+    display_name: '&dTectonic &f[&dBoots&f]'
+    lore:
+    - '&fDamage nearby entities when taking fall damage'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  9:
+    material: book
+    slots:
+    - 19
+    display_name: '&dThrive &f[&dArmor&f]'
+    lore:
+    - '&fIncreases maximum health'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  10:
+    material: book
+    slots:
+    - 20
+    display_name: '&dExtinguishing &f[&dArmor&f]'
+    lore:
+    - '&fTime spent lit aflame is reduced'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  11:
+    material: book
+    slots:
+    - 21
+    display_name: '&dGrit &f[&dArmor&f]'
+    lore:
+    - '&fDamages your opponents weapon when struck'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  12:
+    material: book
+    slots:
+    - 22
+    display_name: '&dInvigoration &f[&dArmor&f]'
+    lore:
+    - '&fDo more damage & take less damage when your health is low'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  13:
+    material: book
+    slots:
+    - 23
+    display_name: '&dRejuvenation &f[&dArmor&f]'
+    lore:
+    - '&fRegenerating naturally becomes quicker'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  14:
+    material: book
+    slots:
+    - 24
+    display_name: '&dSating &f[&dHelmet&f]'
+    lore:
+    - '&fLose hunger slower than normal'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  15:
+    material: book
+    slots:
+    - 25
+    display_name: '&dReinforcement &f[&dElytra&f]'
+    lore:
+    - '&fProtection for your Elytra'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  16:
+    material: book
+    slots:
+    - 28
+    display_name: '&dPreservation &f[&dArmor&f] &2(SPECIAL)'
+    lore:
+    - '&fA high-level variant of "Protection"'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  17:
+    material: book
+    slots:
+    - 29
+    display_name: '&dProsperity &f[&dArmor&f] &2(SPECIAL)'
+    lore:
+    - '&fExtreme Thrive'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  18:
+    material: book
+    slots:
+    - 30
+    display_name: '&dIndestructibility &f[&dAll&f] &2(SPECIAL)'
+    lore:
+    - '&fA high-level variant of "Unbreaking"'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  19:
+    material: book
+    slots:
+    - 31
+    display_name: '&dLaunch &f[&dElytra&f]'
+    lore:
+    - '&fFireworks give you a short burst of extreme speed'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  20:
+    material: book
+    slots:
+    - 32
+    display_name: '&dArcanic &f[&dArmor&f]'
+    lore:
+    - '&fChance to ignore poison/wither damage'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  21:
+    material: book
+    slots:
+    - 33
+    display_name: '&dMagnetic &f[&dBoots&f]'
+    lore:
+    - '&fItems & XP are drawn towards you'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  22:
+    material: book
+    slots:
+    - 34
+    display_name: '&dRepairing &f[&dAll&f] &2(SPECIAL)'
+    lore:
+    - '&fAutomatic Mending'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  23:
+    material: gray_dye
+    slots:
+    - 49
+    display_name: '&f[&d&lBack&f]'
+    hide_attributes: true
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] enchants'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    - '[openguimenu] enchants'

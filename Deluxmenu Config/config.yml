@@ -1,0 +1,22 @@
+# DeluxeMenus 1.13.3-DEV-97 main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://github.com/help-chat/DeluxeMenus/wiki
+
+debug: false
+check_updates: false
+gui_menus:
+	  enchants:
+    file: enchants.yml
+  enchants-weapons:
+    file: enchants-weapons.yml
+  enchants-weapons2:
+    file: enchants-weapons2.yml
+  enchants-tools:
+    file: enchants-tools.yml
+  enchants-curses:
+    file: enchants-curses.yml
+  enchants-artifacts:
+    file: enchants-artifacts.yml
+  enchants-armor:
+    file: enchants-armor.yml
