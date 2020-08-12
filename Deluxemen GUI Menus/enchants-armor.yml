@@ -403,6 +403,23 @@ items:
     right_click_commands:
     - '[sound] UI_BUTTON_CLICK'
   23:
+    material: book
+    slots:
+    - 37
+    display_name: '&dStamina &f[&dBoots&f]'
+    lore:
+    - '&fLess hunger lost while running'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  24:
     material: gray_dye
     slots:
     - 49

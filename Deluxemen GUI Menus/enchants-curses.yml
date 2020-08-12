@@ -42,7 +42,7 @@ items:
   2:
     material: magma_cream
     slots:
-    - 12
+    - 11
     display_name: '&cCurse of Calling &f[&dArmor&f]'
     lore:
     - '&fCurse causes nearby mobs to'
@@ -60,7 +60,7 @@ items:
   3:
     material: magma_cream
     slots:
-    - 13
+    - 12
     display_name: '&cCurse of Fragility &f[&dAll&f]'
     lore:
     - '&fCurse causes items to be brittle & fragile!'
@@ -75,6 +75,15 @@ items:
     right_click_commands:
     - '[sound] UI_BUTTON_CLICK'
   4:
+    material: nether_star
+    slots:
+    - 13
+    display_name: '&cCurses?'
+    lore:
+    - '&fCurses are unfavorable enchantments'
+    - '&fthat can be binded to an item to make'
+    - '&fyour time spent here more challenging!'
+  5:
     material: magma_cream
     slots:
     - 14
@@ -91,7 +100,24 @@ items:
     - '[sound] UI_BUTTON_CLICK'
     right_click_commands:
     - '[sound] UI_BUTTON_CLICK'
-  5:
+  6:
+    material: magma_cream
+    slots:
+    - 15
+    display_name: '&cCurse of Hunger &f[&dHelmets&f]'
+    lore:
+    - '&fCurse causes an increase in hunger loss!'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  7:
     material: gray_dye
     slots:
     - 22

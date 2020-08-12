@@ -236,9 +236,9 @@ items:
     material: book
     slots:
     - 23
-    display_name: '&dLumberjack &f[&dAxes&f]'
+    display_name: '&dRepairing &f[&dAll&f] &2(SPECIAL)'
     lore:
-    - '&fTreefeller'
+    - '&fAutomatic Mending'
     hide_attributes: true
     hide_enchantments: true
     hide_effects: true
@@ -253,9 +253,9 @@ items:
     material: book
     slots:
     - 24
-    display_name: '&dRepairing &f[&dAll&f] &2(SPECIAL)'
+    display_name: '&dBlast Mining &f[&dPickaxes&f]'
     lore:
-    - '&fAutomatic Mending'
+    - '&fMine blocks in a 3x3 area'
     hide_attributes: true
     hide_enchantments: true
     hide_effects: true
@@ -270,9 +270,9 @@ items:
     material: book
     slots:
     - 25
-    display_name: '&dBlast Mining &f[&dPickaxes&f]'
+    display_name: '&dLumberjack &f[&dAxes&f]'
     lore:
-    - '&fMine blocks in a 3x3 area'
+    - '&fTreefeller'
     hide_attributes: true
     hide_enchantments: true
     hide_effects: true
@@ -284,6 +284,23 @@ items:
     right_click_commands:
     - '[sound] UI_BUTTON_CLICK'
   17:
+    material: book
+    slots:
+    - 28
+    display_name: '&dOxygenate &f[&dTools&f]'
+    lore:
+    - '&fGain oxygen when breaking a block underwater'
+    hide_attributes: true
+    hide_enchantments: true
+    hide_effects: true
+    hide_unbreakable: true
+    enchantments:
+    - SILK_TOUCH;1
+    left_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+    right_click_commands:
+    - '[sound] UI_BUTTON_CLICK'
+  18:
     material: gray_dye
     slots:
     - 49
